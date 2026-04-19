@@ -1130,13 +1130,6 @@
       }
     }
   }
-  .hover\:bg-\[url\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: url;
-      }
-    }
-  }
   .hover\:bg-black {
     &:hover {
       @media (hover: hover) {
@@ -1148,13 +1141,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-white);
-      }
-    }
-  }
-  .hover\:bg-\[url\(\'\'\)\] {
-    &:hover {
-      @media (hover: hover) {
-        background-image: url('');
       }
     }
   }
