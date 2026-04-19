@@ -89,6 +89,14 @@
   .swiper-slide {
     height: 100%;
   }
+  .new-lunch {
+    @apply bg-cover bg-center bg-no-repeat;
+    background-image: url("../public/assets/new-lunch.png");
+  }
+  .new-lunch-1 {
+    @apply bg-cover bg-center bg-no-repeat;
+    background-image: url("../public/assets/new-lunch-1.png");
+  }
 }
 @layer utilities {
   @keyframes scroll {
