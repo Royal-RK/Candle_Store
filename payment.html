@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <!-- Swiper css CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <!-- Link css -->
@@ -18,28 +20,28 @@
 </head>
 
 <body class="">
-    <header class="header-btm z-50 bg-white">
+    <header class="header-btm z-50 bg-white overflow-hidden">
         <div class="cmn-container py-[10px] md:py-[30px]">
             <nav class="flex items-center justify-between gap-[40px] xl:gap-0">
                 <ul
                     class="nav-menu transition-all ease-linear duration-300 left-[-100%] flex items-center flex-col xl:flex-row gap-[40px] xl:gap-[30px] xxl:gap-[58px] xl:static fixed top-0 bottom-0 w-[80%] sm:w-[60%] my:w-[60%] xl:w-auto xl:bg-white bg-[#80808038] backdrop-blur-[20px] pt-[128px] xl:pt-0 z-40 xl:z-0">
-                    <li class="nav-items">
+                    <li class="nav-items" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="0">
                         <a class="nav-links font-inter text-[19.97px] text-nav-link relative after:absolute after:content-[''] after:bottom-[-3px] after:h-[1.5px] after:w-0 after:transition-all after:duration-300 after:left-0 after:bg-[#fff] xl:after:bg-[#000] hover:after:w-full"
                             href="shop.html">HOME</a>
                     </li>
-                    <li class="nav-items">
+                    <li class="nav-items" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="150">
                         <a class="nav-links font-inter text-[19.97px] text-nav-link relative after:absolute after:content-[''] after:bottom-[-3px] after:h-[1.5px] after:w-0 after:transition-all after:duration-300 after:left-0 after:bg-[#fff] xl:after:bg-[#000] hover:after:w-full"
                             href="shop.html">SHOP</a>
                     </li>
-                    <li class="nav-items">
+                    <li class="nav-items" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="300">
                         <a class="nav-links font-inter text-[19.97px] text-nav-link relative after:absolute after:content-[''] after:bottom-[-3px] after:h-[1.5px] after:w-0 after:transition-all after:duration-300 after:left-0 after:bg-[#fff] xl:after:bg-[#000] hover:after:w-full"
-                            href="shop-By.html">SHOP BY SCENT</a>
+                            href="shop.html">SHOP BY SCENT</a>
                     </li>
-                    <li class="nav-items">
+                    <li class="nav-items" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="450">
                         <a class="nav-links font-inter text-[19.97px] text-nav-link relative after:absolute after:content-[''] after:bottom-[-3px] after:h-[1.5px] after:w-0 after:transition-all after:duration-300 after:left-0 after:bg-[#fff] xl:after:bg-[#000] hover:after:w-full"
                             href="about.html">ABOUT US</a>
                     </li>
-                    <li class="nav-items">
+                    <li class="nav-items" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="600">
                         <a class="nav-links font-inter text-[19.97px] text-nav-link relative after:absolute after:content-[''] after:bottom-[-3px] after:h-[1.5px] after:w-0 after:transition-all after:duration-300 after:left-0 after:bg-[#fff] xl:after:bg-[#000] hover:after:w-full"
                             href="login.html">LOG IN</a>
                     </li>
@@ -49,16 +51,16 @@
                 <div class=" menu-btn block xl:hidden z-50 transition cursor-pointer order-first my:ms-[50px]">
                     <i class="fa-solid fa-bars-staggered w-[30px] md:w-[21px] md:h-[18px]"></i>
                 </div>
-                <div class="nav-logo ms-auto xl:ms-0">
+                <div class="nav-logo ms-auto xl:ms-0" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="750">
                     <a href="" class="max-w-[180px] md:max-w-[227px] h-auto inline-block">
                         <img class="w-full object-fit-cover" src="./public/assets/logo.png" alt="" />
                     </a>
                 </div>
-                <div class="nav-btn hidden lg:flex lg:items-center gap-[43.04px]">
+                <div class="nav-btn hidden lg:flex lg:items-center gap-[43.04px]" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="900">
                     <a href="" class="country font-Arial text-[19.97px] text-[#000]">HOLIDAY QUIZ</a>
                     <img src="./public/assets/country.png" alt="" />
                 </div>
-                <div class="nav-btn hidden lg:flex lg:items-center md:gap-[20px]">
+                <div class="nav-btn hidden lg:flex lg:items-center md:gap-[20px]" data-aos="fade-down" data-aos-duration="1000"data-aos-delay="1050">
                     <a href="" class="contact">
                         <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -125,14 +127,14 @@
             <div class="cmn-container">
                 <div class="grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-[50px]">
                     <div class="express mt-[50px] w-full mx-auto">
-                        <div class="text-center text-[20px] md:text-[33.83px] font-Arial mb-[30px] md:mb-[80px]">Express
+                        <div class="text-center text-[20px] md:text-[33.83px] font-Arial mb-[30px] md:mb-[80px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">Express
                             checkout</div>
                         <div
                             class="btns flex items-center justify-around mb-[32.99px] w-full gap-[40px] sm:gap-[50px] md:gap-[60px] xl:gap-[74px]">
                             <a href=""
-                                class="shop w-[40%] text-center py-[10px] py-[16px] text-[16px] sm:text-[20px] md:text-[32.33px] font-Angkor text-white bg-[#440DDA] transition-all hover:bg-[#7959cf]">Shop</a>
+                                class="shop w-[40%] text-center py-[10px] py-[16px] text-[16px] sm:text-[20px] md:text-[32.33px] font-Angkor text-white bg-[#440DDA] transition-all hover:bg-[#7959cf]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">Shop</a>
                             <a href=""
-                                class="gpay w-[40%] flex items-center justify-center gap-[6px] py-[10px] md:py-[10.59px] bg-black text-white text-[24px] sm:text-[35px] md:text-[42.5px] font-Arial transition-all hover:bg-[#7c7979]">
+                                class="gpay w-[40%] flex items-center justify-center gap-[6px] py-[10px] md:py-[10.59px] bg-black text-white text-[24px] sm:text-[35px] md:text-[42.5px] font-Arial transition-all hover:bg-[#7c7979]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                                 <svg class="w-[20px] sm:w-[42px] h-[20px] sm:h-[38px]" width="42" height="42"
                                     viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -149,21 +151,21 @@
                                 <span>Pay</span>
                             </a>
                         </div>
-                        <div class="flex items-center gap-3 mb-[40px] md:mb-[80px]">
+                        <div class="flex items-center gap-3 mb-[40px] md:mb-[80px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                             <div class="flex-1 h-[2px] bg-black"></div>
                             <span class="text-[16px] md:text-[21.47px] font-Arial text-black">OR</span>
                             <div class="flex-1 h-[2px] bg-black"></div>
                         </div>
-                        <div class="cnt-sign-up flex justify-between items-center mb-[32px]">
+                        <div class="cnt-sign-up flex justify-between items-center mb-[32px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                             <span class="cnt text-[28px] md:text-[45px] font-Bell-MT-Bold">Contact</span>
                             <a href="" class="sign text-[20px] md:text-[30.94px] font-Bell-MT underline">Sign in</a>
                         </div>
                         <form action="" class="email">
-                            <div class="password mb-[37.7px]">
+                            <div class="password mb-[37.7px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="email" placeholder="Email" id="userEmail"
                                     class="p-[10px_12px] md:p-[21.56px_19.82px] border border-[rgba(0,0,0,31%)] bg-white w-full text-[20px] md:text-[30.94px] font-Arial transition-all ease-linear hover:scale-[1.02]">
                             </div>
-                            <div class="checkBx flex items-center gap-[9px] mb-[40px] md:mb-[68px]">
+                            <div class="checkBx flex items-center gap-[9px] mb-[40px] md:mb-[68px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="checkbox" name="" id="checkBox"
                                     class="w-[19px] md:w-[26.65px] h-[18px] md:h-[24.53px] border border-black bg-white appearance-none cursor-pointer checked:bg-black checked:border-black">
                                 <label for="checkBox" class="font-Arial text-[16.92px] md:text-[21.47px]">
@@ -171,13 +173,13 @@
                                 </label>
                             </div>
                         </form>
-                        <div class="title text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[25px]">Delivery</div>
+                        <div class="title text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[25px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Delivery</div>
                         <form action="">
                             <div
                                 class="region mb-[23.3px] border border-[rgba(0,0,0,31%)] p-[5px_10px] md:p-[14px_13px] transition-all hover:scale-[1.02]">
                                 <label
                                     class="font-Arial text-[12px] sm:text-[16px] text-[rgba(0,0,0,69%)] mb-2">Country/Region</label>
-                                <div class="country flex items-center justify-between">
+                                <div class="country flex items-center justify-between" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                     <span class="text-[16px] md:text-[24.05px] font-Arial">India</span>
                                     <a href="" class="">
                                         <svg class="h-[16px] md:h-[21px] w-[16px] md:w-[21px]" width="21" height="21" viewBox="0 0 21 21" fill="none"
@@ -198,7 +200,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="nam mb-[23.3px] gap-[33.45px] w-full flex items-center">
+                            <div class="nam mb-[23.3px] gap-[33.45px] w-full flex items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="text"
                                     class="p-[10px_12px] md:p-[28.23px_12.29px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,69%)] w-full transition-all hover:scale-[1.02]"
                                     placeholder="First Name">
@@ -206,24 +208,24 @@
                                     class="p-[10px_12px] md:p-[28.23px_12.29px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,69%)] w-full transition-all hover:scale-[1.02]"
                                     placeholder="Last Name">
                             </div>
-                            <div class="company mb-[23.3px]">
+                            <div class="company mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="text"
                                     class="p-[10px_12px] md:p-[28.1px_13.06px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]"
                                     placeholder="Company (optional)">
                             </div>
-                            <div class="address mb-[23.3px]">
+                            <div class="address mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="text" placeholder="Address"
                                     class="p-[10px_12px] md:p-[28.1px_13.56px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]">
                             </div>
-                            <div class="aprtment mb-[23.3px]">
+                            <div class="aprtment mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="text" placeholder="Apartment, suite, etc. (optional)"
                                     class="p-[12px_12px] md:p-[28.1px_15.56px] border border-[rgba(0,0,0,31%)] font-Arial sm:text-[20.29px] text-[14px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]">
                             </div>
                             <div class="city-pin mb-[23.3px] flex items-center flex-wrap lg:gap-[56px] w-full">
                                 <input type="text" placeholder="City"
-                                    class="p-[10px] md:p-[28.1px_15.56px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]">
+                                    class="p-[10px] md:p-[28.1px_15.56px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                                 <div
-                                    class="region border border-[rgba(0,0,0,31%)] p-[10px] md:p-[19px_13px] w-full transition-all hover:scale-[1.02]">
+                                    class="region border border-[rgba(0,0,0,31%)] p-[10px] md:p-[19px_13px] w-full transition-all hover:scale-[1.02]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                                     <label
                                         class="font-Arial text-[14px] sm:text-[16.69px] text-[rgba(0,0,0,69%)] mb-2 font-[300]">State</label>
                                     <div class="country flex items-center justify-between">
@@ -250,13 +252,13 @@
                                     </div>
                                 </div>
                                 <input type="text" placeholder="PIN code"
-                                    class="p-[10px] md:p-[28.1px_15.56px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]">
+                                    class="p-[10px] md:p-[28.1px_15.56px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                             </div>
-                            <div class="phone mb-[23.3px]">
+                            <div class="phone mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="text" placeholder="Phone"
                                     class="p-[10px_12px] md:p-[28.1px_13.56px] border border-[rgba(0,0,0,31%)] font-Arial text-[16px] sm:text-[20.29px] text-[rgba(0,0,0,90%)] w-full transition-all hover:scale-[1.02]">
                             </div>
-                            <div class="checkBx flex items-center gap-[9px] mb-[40px] md:mb-[70px]">
+                            <div class="checkBx flex items-center gap-[9px] mb-[40px] md:mb-[70px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="checkbox" name="" id="checkBox"
                                     class="w-[19px] md:w-[26.65px] h-[18px] md:h-[24.53px] border border-black bg-white appearance-none cursor-pointer checked:bg-black checked:border-black">
                                 <label for="checkBox"
@@ -266,26 +268,26 @@
                             </div>
                         </form>
                         <h2
-                            class="title-2 text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[23.33px] text-center sm:text-start">
+                            class="title-2 text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[23.33px] text-center sm:text-start" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                             Shipping method</h2>
                         <div
-                            class="p-[27.73px_60.43px] bg-[#F1F1F1] text-[17px] sm:text-[20.91px] font-Arial font-bold mb-[40px] md:mb-[75px] text-gray-700">
+                            class="p-[27.73px_60.43px] bg-[#F1F1F1] text-[17px] sm:text-[20.91px] font-Arial font-bold mb-[40px] md:mb-[75px] text-gray-700" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                             Enter your shipping address to view available shipping methods</div>
-                        <h2 class="title-2 text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[11.33px]">Payment</h2>
+                        <h2 class="title-2 text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[11.33px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Payment</h2>
                         <div
-                            class="test-[17px] sm:text-[20.91px] font-Arial font-bold mb-[40px] md:mb-[75px] text-gray-700">
+                            class="test-[17px] sm:text-[20.91px] font-Arial font-bold mb-[40px] md:mb-[75px] text-gray-700" data-aos="fade-up" data-aos-duration="800" data-aos-delay="20">
                             All transaction are
                             secure and encrypted</div>
                         <div
                             class="cradit-crd flex items-center justify-between mb-[22.33px] ps-0 sm:ps-[18.56px] pe-0 sm:pe-[53.3px]">
-                            <div class="checkBx flex items-center gap-[8px] sm:gap-[14.6px]">
+                            <div class="checkBx flex items-center gap-[8px] sm:gap-[14.6px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                                 <input type="checkbox" name="" id="checkBox"
                                     class="w-[19px] md:w-[26.65px] h-[18px] md:h-[24.53px] border border-black bg-white appearance-none cursor-pointer rounded-[50%] checked:bg-black checked:border-black">
                                 <label for="checkBox" class="font-Arial text-[13.92px] md:text-[21.47px]">
                                     Credit card
                                 </label>
                             </div>
-                            <div class="card-typs flex items-center gap-[5px] sm:gap-[11.2px]">
+                            <div class="card-typs flex items-center gap-[5px] sm:gap-[11.2px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                                 <div class="visa ">
                                     <svg width="44" height="28" viewBox="0 0 44 28" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -342,7 +344,7 @@
                         </div>
                         <div
                             class="shop-pay p-[10px] md:py-[23.33px] ps-[5px] sm:ps-[18.56px] pe-[10px] sm:pe-[53.3px] bg-[#F1F1F1] flex items-center justify-between mb-[40px] md:mb-[75.33px]">
-                            <div class="checkBx flex items-center gap-[5px] sm:gap-[14.6px]">
+                            <div class="checkBx flex items-center gap-[5px] sm:gap-[14.6px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                                 <input type="checkbox" name="" id="checkBox"
                                     class="w-[19px] md:w-[26.65px] h-[18px] md:h-[24.53px] border-[5px] md:border-[8px] border-black bg-white appearance-none cursor-pointer rounded-[50%] checked:bg-black checked:border-black">
                                 <label for="checkBox" class="font-Arial text-[13.92px] md:text-[21.47px]">
@@ -352,42 +354,42 @@
                                 <span class="font-Arial text-[11px] sm:text-[21.91px] text-gray-600">Pay in full or in
                                     installments</span>
                             </div>
-                            <div class="shp text-[13px] sm:text-[17.55px] font-Angkor text-[#556DDA]">Shop</div>
+                            <div class="shp text-[13px] sm:text-[17.55px] font-Angkor text-[#556DDA]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">Shop</div>
                         </div>
-                        <h2 class="title-2 mx-auto text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[23.3px]">Billing
+                        <h2 class="title-2 mx-auto text-[28px] md:text-[45px] font-Bell-MT-Bold mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">Billing
                             address</h2>
                         <div class="last-form">
                             <div
                                 class="shipping-address p-[10px_14px] md:p-[23.3px_18.56px] bg-white flex items-center gap-[13.33px] border border-gray-400">
                                 <input type="checkbox" name="" id="checkBox"
-                                    class="w-[19px] rounded-[50%] md:w-[26.65px] h-[18px] md:h-[24.53px] border border-black bg-white appearance-none cursor-pointer checked:bg-black checked:border-black">
-                                <label for="checkBox" class="font-Arial text-[13.92px] md:text-[21.47px]">
+                                    class="w-[19px] rounded-[50%] md:w-[26.65px] h-[18px] md:h-[24.53px] border border-black bg-white appearance-none cursor-pointer checked:bg-black checked:border-black" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                                <label for="checkBox" class="font-Arial text-[13.92px] md:text-[21.47px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                     Same as shipping address
                                 </label>
                             </div>
                             <div
                                 class="billing-address p-[10px_14px] md:p-[23.3px_18.56px] bg-[#D9D9D9] flex items-center gap-[9px] border border-gray-400">
-                                <input type="checkbox" name="" id="checkBox"
+                                <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" type="checkbox" name="" id="checkBox"
                                     class="w-[19px] rounded-[50%] md:w-[26.65px] h-[18px] md:h-[24.53px] border-[5px] md:border-[8px] border-black bg-white appearance-none cursor-pointer checked:bg-black checked:border-black">
-                                <label for="checkBox" class="font-Arial text-[13.92px] md:text-[21.47px]">
+                                <label for="checkBox" class="font-Arial text-[13.92px] md:text-[21.47px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                     Use a different billing address
                                 </label>
                             </div>
                             <form action="" class="bg-[#D9D9D9] p-[15.38px_23.98px] mb-[28.23px]">
                                 <div class="nam mb-[23.3px] gap-[33.45px] w-full flex items-center">
-                                    <input type="text"
+                                    <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="0" type="text"
                                         class="p-[8px_12px] md:p-[28.23px_12.29px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,69%)] w-full"
                                         placeholder="First Name">
-                                    <input type="text"
+                                    <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="150" type="text"
                                         class="p-[8px_12px] md:p-[28.23px_12.29px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,69%)] w-full"
                                         placeholder="Last Name">
                                 </div>
                                 <div class="company mb-[23.3px]">
-                                    <input type="text"
+                                    <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" type="text"
                                         class="p-[8px_12px] md:p-[28.1px_13.06px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,90%)] w-full"
                                         placeholder="Company (optional)">
                                 </div>
-                                <div class="address mb-[23.3px] relative">
+                                <div class="address mb-[23.3px] relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                     <input type="text" placeholder="Address"
                                         class="p-[8px_12px] md:p-[28.1px_13.56px] relative bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,90%)] w-full">
                                     <a href=""
@@ -408,15 +410,15 @@
                                         </svg>
                                     </a>
                                 </div>
-                                <div class="aprtment mb-[23.3px]">
+                                <div class="aprtment mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                     <input type="text" placeholder="Apartment, suite, etc. (optional)"
                                         class="p-[9px_12px] md:p-[28.1px_15.56px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[15px] md:text-[20.29px] text-[rgba(0,0,0,90%)] w-full">
                                 </div>
                                 <div class="city-pin mb-[23.3px] flex items-center flex-wrap lg:gap-[56px] w-full">
-                                    <input type="text" placeholder="City"
+                                    <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="0" type="text" placeholder="City"
                                         class="p-[10px_12px] md:p-[28.1px_15.56px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,90%)] w-full">
                                     <div
-                                        class="region border bg-white border-[rgba(0,0,0,31%)] p-[8px_12px] md:p-[19px_13px] w-full">
+                                        class="region border bg-white border-[rgba(0,0,0,31%)] p-[8px_12px] md:p-[19px_13px] w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                                         <label
                                             class="font-Arial text-[16.69px] text-[rgba(0,0,0,69%)] mb-2 font-[300]">State</label>
                                         <div class="country flex items-center justify-between">
@@ -444,15 +446,15 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <input type="text" placeholder="PIN code"
+                                    <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" type="text" placeholder="PIN code"
                                         class="p-[10px_12px] md:p-[28.1px_15.56px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,90%)] w-full">
                                 </div>
-                                <div class="phone mb-[23.3px]">
+                                <div class="phone mb-[23.3px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                     <input type="text" placeholder="Phone (optional)"
                                         class="p-[10px_12px] md:p-[28.1px_13.56px] bg-white border border-[rgba(0,0,0,31%)] font-Arial text-[16px] md:text-[20.29px] text-[rgba(0,0,0,90%)] w-full">
                                 </div>
                             </form>
-                            <div class="checkBx flex items-center gap-[9px] mb-[40px] md:mb-[70px] w-full">
+                            <div class="checkBx flex items-center gap-[9px] mb-[40px] md:mb-[70px] w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                                 <input type="submit" value="Pay now"
                                     class="py-[10px] md:py-[15.33px] bg-black text-white w-full text-[16px] md:text-[28.5px] font-Arial font-bold transition-all hover:bg-gray-600">
                             </div>
@@ -460,7 +462,7 @@
                     </div>
                     <div
                         class="holiday w-full mx-auto pt-[50.84px] pb-[30px] ps-[10px] md:ps-[44.49px] pe-[15px] md:pe-[70px] bg-[#EBEBEB] z-1 relative xl:sticky xl:top-[100px] xl:self-start xl:h-fit ">
-                        <div class="tp z-50 flex items-center justify-between gap-[20px] lg::gap-[30px] mb-[15.61px]">
+                        <div class="tp z-50 flex items-center justify-between gap-[20px] lg::gap-[30px] mb-[15.61px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                             <span
                                 class="p-[2px_8px] md:px-[19.3px] md:pt-[8px] md:pb-[10px] w-[20px] md:w-[48.6px] h-[20px] md:h-[47.7px] inline-block bg-black text-white text-[12px] md:text-[25.17px] font-inria-serif font-bold">1</span>
                             <h3 class="title-3 mb-0 text-[18px] md:text-[31.84px] font-inria-serif font-bold">Pomander
@@ -468,23 +470,23 @@
                             </h3>
                             <span class="text-[18px] md:text-[28.11px] font-inria-serif">Rs. 5,900.00</span>
                         </div>
-                        <div class="before-img -z-10 max-w-[117.69px] w-full absolute top-[66.77px] left-[20px]">
+                        <div class="before-img -z-10 max-w-[117.69px] w-full absolute top-[66.77px] left-[20px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                             <img src="./public/assets/payment-img.png" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="btn mb-[40px] md:mb-[100px]">
+                        <div class="btn mb-[40px] md:mb-[100px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                             <a href=""
                                 class="edit ms-[100px] p-[2px_10px] sm:p-[6.79px_24.98px] border-[2px] rounded-[3px] text-[16px] sm:text-[23.32px] font-inria-serif">Edit</a>
                         </div>
                         <form action="" class="mb-[30px] md:mb-[60px]">
                             <div class="card flex items-center gap-[10px] lg:gap-[50.91px]">
-                                <input type="text" placeholder="Discount code or gift card"
+                                <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="0" type="text" placeholder="Discount code or gift card"
                                     class="max-w-[615.81px] w-full p-[10px_12px] md:p-[22.5px_35.51px] bg-white rounded-[3px] text-[15px] md:text-[21.05px] font-Arial text-[rgba(0,0,0,80%)]">
-                                <input type="submit" value="Apply"
+                                <input data-aos="fade-up" data-aos-duration="800" data-aos-delay="150" type="submit" value="Apply"
                                     class="bg-[#D9D9D9] p-[5px_12px] md:p-[21.59px_23.83px] text-[13px] md:text-[23.04px] font-Arial border rounded-[4.04px] ms-auto md:ms-0">
                             </div>
                         </form>
                         <div class="subtotal mb-[26px] flex justify-between items-center">
-                            <span class="text-[16px] md:text-[23.04px] font-Arial">Subtotal</span>
+                            <span class="text-[16px] md:text-[23.04px] font-Arial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">Subtotal</span>
                             <div class="flex items-center">
                                 <svg class="w-[20px] md:w-[26px] h-[20px] md:h-[26px]" width="26" height="26"
                                     viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -499,11 +501,11 @@
                                             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAAOwAAADsAEnxA+tAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAvxJREFUeJzt3DtoFFEUh/EvPhCD4AO0s/CBqGAhgghqo6UoFomF2IhYWNlY2NjbmEqsFaxslICFCmKqWAURVEREhAiilYVR0SQWFzEJRnYmM3Nm534/uN3M7hnOf2d379wZkCRJkiRJkiRJkiRJkiRJUt8biC4AuBNdQEOeAiPRRSy0IroAYDi6gJwtiy5AsQxA5gxA5gxA5gxA5gxA5gxA5gxA5gxA5towFVyldcBGYAtwGDgKHKD8cU4Dh0jTuOpTu4DrwHdgtsR4DQw2XrUqtwN4RLkQXAuoVzW5SDq1FwnAD2BrRLGqxzDwk2IhuBVSqWpznmIB+AVsDqm0RsujCwg0Aawn/UvoxTLgCzBWW0Vq3CDwlt7PAu9x7qRzjlPsq2BfTJmqywDwgt4DcDmmzHq4JjB5Buzucdsh0tdGUZPAeIn9Oq/MxEw/jlaufvYHTeYMQOYMQOYMQOYMQOYMQOYMQOYMQOYMQObaMBV8KroA4CRwusdtJ4CrJd5jssQ+akDRi0FXYspUXY5RbE7/YEyZqsNq4A29N/8D/m7qlBGKffpdHt4h5yjW/Glge0ilqtwQxZeF3wupVJUrc2PINLA3olhVZyfwkHKreW42X66qsge4Qbq9q0zzP5HuOO6kNswEVmkDsAnYRrqt+wiwf4mveQH4vMTX0H80uTCz6PBvXwOim7zYeED3zpCtFN3of41xYE2dB62/opu9cDwG1tZ6xJonuuFzx21gVb2Hq4Wimz4LfCNNEClAdPPHSA+SUpCoxr8krUbq2qPy+k6TTZ8h/cgbJu+no7RK3U2fAp4Al0gzhJqjHyc6ZoBR0uXchaaAr8BH4B3wCni+yLZqiTKf6vv4d60zil6b/zPuAisD6lXFzlI+BJ4JOsIQyBDIEAhDIAyBMATCEAhDIAyBMATCEAhDIAyBMATCEAhDIAyBMATCEAhDIAyBMATCEAhDIAyBMATCEAhDME+uj0c5A5woue8o6WlikiRJkiRJkiRJkiRJkiRJUjv8BsmdWKbsmPxOAAAAAElFTkSuQmCC" />
                                     </defs>
                                 </svg>
-                                <p class="text-[16px] md:text-[23.04px] font-Arial"> 5,900.00</p>
+                                <p class="text-[16px] md:text-[23.04px] font-Arial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150"> 5,900.00</p>
                             </div>
                         </div>
                         <div class="shipping mb-[30px] md:mb-[50px] flex items-center justify-between">
-                            <div class="flex items-center gap-[4px]">
+                            <div class="flex items-center gap-[4px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                                 <span class="text-[16px] md:text-[23.04px] font-Arial">Shipping</span>
                                 <svg class="w-[13px] md:w-[21px] h-[12px] md:h-[20px]" width="21" height="20"
                                     viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -516,12 +518,12 @@
                                         fill="black" fill-opacity="0.69" />
                                 </svg>
                             </div>
-                            <span class="text-[14px] md:text-[23px] font-Arial text-[rgba(0,0,0,68%)]">Enter shipping
+                            <span class="text-[14px] md:text-[23px] font-Arial text-[rgba(0,0,0,68%)]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">Enter shipping
                                 address</span>
                         </div>
                         <div class="total flex justify-between items-center">
-                            <span class="text-[18px] md:text-[23.04px] font-Arial font-bold">Total</span>
-                            <div class="flex items-center">
+                            <span class="text-[18px] md:text-[23.04px] font-Arial font-bold" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">Total</span>
+                            <div class="flex items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                                 <span
                                     class="text-[15px] md:text-[17.41px] font-Arial font-bold text-[rgba(0,0,0,74%)]">INR</span>
                                 <svg class="w-[20px] md:w-[26px] h-[20px] md:h-[26px]" width="26" height="26" viewBox="0 0 26 26" fill="none"
@@ -564,12 +566,18 @@
             </ul>
         </div>
     </footer>
-    <!-- Swiper js CDN -->
+  <!-- Swiper js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <!-- Jquery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Lenis (Smooth Scroll) -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <!-- AOS JS — Swiper ke baad, script.js se pehle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./js/script.js"></script>
+
     <!-- Custom JQuery -->
     <script src="./js/jquery.js"></script>
     <!-- Custom Js -->
