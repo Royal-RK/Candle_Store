@@ -129,7 +129,7 @@
   }
 }
 @layer utilities {
-  @keyframes scroll {
+  @keyframes card-scroll {
     0% {
       transform: translateX(0);
     }
@@ -137,21 +137,22 @@
       transform: translateX(-50%);
     }
   }
-
+  @keyframes img-scroll-anim {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
   .animate-scroll {
-    animation: scroll 10s linear infinite;
-  }
-}
-@layer utilities {
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+    display: flex;
+    width: max-content;
+    animation: card-scroll 20s linear infinite;
+    will-change: transform;
   }
   .img-scroll {
-    animation: scroll 20s linear infinite;
+    animation: img-scroll-anim 20s linear infinite;
+    will-change: transform;
   }
 }
