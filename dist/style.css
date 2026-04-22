@@ -28,6 +28,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-600: oklch(44.6% 0.03 256.802);
@@ -586,9 +587,6 @@
   .h-\[222px\] {
     height: 222px;
   }
-  .h-\[322px\] {
-    height: 322px;
-  }
   .h-\[567\.92px\] {
     height: 567.92px;
   }
@@ -666,12 +664,6 @@
   }
   .w-\[336px\] {
     width: 336px;
-  }
-  .w-\[413\.12px\] {
-    width: 413.12px;
-  }
-  .w-\[full\] {
-    width: full;
   }
   .w-full {
     width: 100%;
@@ -1161,8 +1153,14 @@
   .p-\[15\.38px_23\.98px\] {
     padding: 15.38px 23.98px;
   }
+  .p-\[15px\] {
+    padding: 15px;
+  }
   .p-\[17\.56px_18px\] {
     padding: 17.56px 18px;
+  }
+  .p-\[17px\] {
+    padding: 17px;
   }
   .p-\[27\.73px_60\.43px\] {
     padding: 27.73px 60.43px;
@@ -1199,9 +1197,6 @@
   }
   .py-\[14px\] {
     padding-block: 14px;
-  }
-  .py-\[15px\] {
-    padding-block: 15px;
   }
   .py-\[16px\] {
     padding-block: 16px;
@@ -1383,9 +1378,6 @@
   }
   .text-\[16\.69px\] {
     font-size: 16.69px;
-  }
-  .text-\[16\.83px\] {
-    font-size: 16.83px;
   }
   .text-\[16\.92px\] {
     font-size: 16.92px;
@@ -1623,11 +1615,17 @@
   .text-nav-link {
     color: var(--color-nav-link);
   }
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
   .text-white {
     color: var(--color-white);
   }
   .capitalize {
     text-transform: capitalize;
+  }
+  .lowercase {
+    text-transform: lowercase;
   }
   .uppercase {
     text-transform: uppercase;
@@ -2586,6 +2584,11 @@
       width: 336px;
     }
   }
+  .md\:w-\[434\.04px\] {
+    @media (width >= 768px) {
+      width: 434.04px;
+    }
+  }
   .md\:w-full {
     @media (width >= 768px) {
       width: 100%;
@@ -2604,11 +2607,6 @@
   .md\:max-w-\[388px\] {
     @media (width >= 768px) {
       max-width: 388px;
-    }
-  }
-  .md\:max-w-\[434\.04px\] {
-    @media (width >= 768px) {
-      max-width: 434.04px;
     }
   }
   .md\:max-w-\[600px\] {
@@ -2952,11 +2950,6 @@
       text-align: start;
     }
   }
-  .md\:text-\[16\.83px\] {
-    @media (width >= 768px) {
-      font-size: 16.83px;
-    }
-  }
   .md\:text-\[16px\] {
     @media (width >= 768px) {
       font-size: 16px;
@@ -3030,6 +3023,11 @@
   .md\:text-\[22\.81px\] {
     @media (width >= 768px) {
       font-size: 22.81px;
+    }
+  }
+  .md\:text-\[22px\] {
+    @media (width >= 768px) {
+      font-size: 22px;
     }
   }
   .md\:text-\[23\.04px\] {
