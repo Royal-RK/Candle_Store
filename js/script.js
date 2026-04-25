@@ -32,11 +32,13 @@ let isOpen = false;
 menuBtn.addEventListener("click", () => {
   if (isOpen === false) {
     navMenu.style.left = "0%";
+    menuBtn.classList.add("activeshow");
     document.body.classList.add("no-scroll");
     lenis.stop();
     isOpen = true;
   } else {
     navMenu.style.left = "-100%";
+    menuBtn.classList.remove("activeshow");
     document.body.classList.remove("no-scroll");
     lenis.start();
     isOpen = false;

@@ -65,6 +65,21 @@
     right: 0;
     z-index: 999;
   }
+  .menu-btn span,
+  .menu-btn::after,
+  .menu-btn::before {
+   transition: 0.5s linear;
+  }
+  .menu-btn.activeshow span {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  .menu-btn.activeshow::after {
+    transform: rotate(45deg) translateX(8px);
+  }
+  .menu-btn.activeshow::before {
+    transform: rotate(-45deg) translateX(9px);
+  }
   .cmn-container {
     @apply max-w-[1952px] mx-auto px-4 w-full;
   }
